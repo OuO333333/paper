@@ -4,6 +4,8 @@ M<sub>T</sub>: 發送端形成信號的波束數
 M<sub>R</sub>: 接收端形成信號的波束數  
 N<sub>T</sub>: 發射端的天線數量  
 N<sub>R</sub>: 接收端的天線數量  
+N<sub>T</sub><sup>RF</sup>: 發射端的 RF 數量  
+N<sub>R</sub><sup>RF</sup>: 接收端的 RF 數量  
 X<sub>k</sub>: M<sub>T</sub> × M<sub>T</sub> matrix, 第 k 個子載波的信號  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X<sub>k</sub>=diag(x<sub>k, 1</sub>, x<sub>k, 2</sub>, ..., x<sub>k, M<sub>T</sub></sub>)  
 F<sub>k</sub>: N<sub>T</sub> × M<sub>T</sub> matrix, beamforming matrix  
