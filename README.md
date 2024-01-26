@@ -35,4 +35,16 @@ W<sub>k</sub>: N<sub>R</sub> × M<sub>R</sub> matrix, combining matrix
   
 ![image](https://github.com/OuO333333/paper/assets/37506309/92f8e685-3841-4b06-9fb8-2abe6bffb340)  
 ![image](https://github.com/OuO333333/paper/assets/37506309/0abea4ce-1978-4e6b-9941-46b647af62ef)
+  
+-------------------------------------------------------------  
 
+Y<sub>k</sub> = √P * W<sup>H</sup>H<sub>k</sub>F + Ñ<sub>k</sub>  
+R<sub>k</sub> = G<sub>L</sub>Y<sub>k</sub>G<sub>R</sub> = √P * G<sub>L</sub>W<sup>H</sup>H<sub>k</sub>FG<sub>R</sub> + G<sub>L</sub>Ñ<sub>k</sub>G<sub>R</sub>  
+![image](https://github.com/OuO333333/paper/assets/37506309/c90f8e3e-2e8a-4462-a8e4-2e124923974c)  
+M<sub>R</sub> ≥ N<sub>R</sub>, M<sub>T</sub> ≥ N<sub>T</sub>, 比較好懂, 就是分別消掉 W<sup>H</sup> 跟 F。  
+M<sub>R</sub> < N<sub>R</sub>, M<sub>T</sub> < N<sub>T</sub>, 就不懂了。  
+  
+-------------------------------------------------------------  
+
+看起來是先初步估計出 R<sub>k<sub>0</sub></sub>, R<sub>k<sub>1</sub></sub> 當 input, 目標求出 output H<sub>k<sub>0</sub></sub>, H<sub>k<sub>1</sub></sub>。  
+然後再用 H求出原本的 X<sub>k<sub>0</sub></sub>, X<sub>k<sub>1</sub></sub>。
