@@ -25,8 +25,14 @@ W<sub>k</sub>: N<sub>R</sub> × M<sub>R</sub> matrix, combining matrix
 
   
 -------------------------------------------------------------  
-
-
+  
+在發送端, X<sub>k</sub> 總共有 M<sub>T</sub> 個波束, 每個波束只使用一個 RF  
+在接收端, 用 M<sub>R</sub> 個波束來取得 1 個發送端的波束, 而接收端有 N<sub>R</sub><sup>RF</sup> 個 RF,  
+因此處理 1 個發送端的波束需要使用 channel M<sub>R</sub> / N<sub>R</sub><sup>RF</sup> 次,  
+處理整個 X<sub>k</sub> 需要使用 channel M<sub>T</sub> * M<sub>R</sub> / N<sub>R</sub><sup>RF</sup> 次
+  
+-------------------------------------------------------------  
+  
 ![image](https://github.com/OuO333333/paper/assets/37506309/92f8e685-3841-4b06-9fb8-2abe6bffb340)  
 ![image](https://github.com/OuO333333/paper/assets/37506309/0abea4ce-1978-4e6b-9941-46b647af62ef)
 
