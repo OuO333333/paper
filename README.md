@@ -13,7 +13,13 @@ W<sub>k</sub>: N<sub>R</sub> × M<sub>R</sub> matrix, combining matrix
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W<sub>k</sub> = [w<sub>k, 1</sub>, w<sub>k, 2</sub>, ..., w<sub>k, M<sub>R</sub></sub>]  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;combining vectors, w<sub>k, v</sub> ∈ C<sup>N<sub>R</sub> × 1</sup> , v = 1, ..., M<sub>R</sub>  
 ![image](https://github.com/OuO333333/paper/assets/37506309/427724a9-17b8-4cbc-8ec0-1fe5582f199f)
-![image](https://github.com/OuO333333/paper/assets/37506309/9f036727-d641-4231-9980-ba79a88d666b)
+![image](https://github.com/OuO333333/paper/assets/37506309/9f036727-d641-4231-9980-ba79a88d666b)  
+Ñ<sub>k</sub>: M<sub>R</sub> × M<sub>T</sub> matrix, noise matrix  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ñ<sub>k</sub> = W<sub>k</sub><sup>H</sup> × N<sub>k</sub>  
+![image](https://github.com/OuO333333/paper/assets/37506309/9d13af86-0c04-44a6-90d8-a26283e29b1f)???
+
+  
+-------------------------------------------------------------  
 
 
 ![image](https://github.com/OuO333333/paper/assets/37506309/92f8e685-3841-4b06-9fb8-2abe6bffb340)  
