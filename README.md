@@ -40,7 +40,7 @@ Y<sub>k</sub> = √P * W<sup>H</sup>H<sub>k</sub>F + Ñ<sub>k</sub>
 R<sub>k</sub> = G<sub>L</sub>Y<sub>k</sub>G<sub>R</sub> = √P * G<sub>L</sub>W<sup>H</sup>H<sub>k</sub>FG<sub>R</sub> + G<sub>L</sub>Ñ<sub>k</sub>G<sub>R</sub>  
 ![image](https://github.com/OuO333333/paper/assets/37506309/c90f8e3e-2e8a-4462-a8e4-2e124923974c)  
 M<sub>R</sub> ≥ N<sub>R</sub>, M<sub>T</sub> ≥ N<sub>T</sub>, 比較好懂, 就是分別消掉 W<sup>H</sup> 跟 F, 消掉 W<sup>H</sup> 跟 F 後就是 H<sub>k</sub> 了。  
-M<sub>R</sub> < N<sub>R</sub>, M<sub>T</sub> < N<sub>T</sub>, 就不懂了。  
+M<sub>R</sub> < N<sub>R</sub>, M<sub>T</sub> < N<sub>T</sub>, 就不懂了, WW<sup>H</sup> 應該沒有什麼能消的。  
   
 -------------------------------------------------------------  
 
