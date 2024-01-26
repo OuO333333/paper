@@ -44,5 +44,5 @@ M<sub>R</sub> < N<sub>R</sub>, M<sub>T</sub> < N<sub>T</sub>, 就不懂了。
   
 -------------------------------------------------------------  
 
-看起來是先初步估計出 R<sub>k<sub>0</sub></sub>, R<sub>k<sub>1</sub></sub> 當 input, 目標求出 output H<sub>k<sub>0</sub></sub>, H<sub>k<sub>1</sub></sub>。  
+看起來是先初步估計出 R<sub>k<sub>0</sub></sub>, R<sub>k<sub>1</sub></sub> 當 input(近似於 H<sub>k<sub>0</sub></sub>, H<sub>k<sub>1</sub></sub>), 目標求出 output H<sub>k<sub>0</sub></sub>, H<sub>k<sub>1</sub></sub>。  
 然後再用 H 求出原本的 X<sub>k<sub>0</sub></sub>, X<sub>k<sub>1</sub></sub>。
