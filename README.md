@@ -1,4 +1,4 @@
-# paper  
+# Y<sub>k</sub> = W<sub>k</sub><sup>H</sup>H<sub>k</sub>F<sub>k</sub>X<sub>k</sub> + Ñ<sub>k</sub>
 K: OFDM 的子載波數  
 M<sub>T</sub>: 發送端形成信號的波束數  
 M<sub>R</sub>: 接收端形成信號的波束數  
