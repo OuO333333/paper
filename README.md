@@ -21,8 +21,6 @@ W<sub>k</sub>: N<sub>R</sub> × M<sub>R</sub> matrix, combining matrix
 ![image](https://github.com/OuO333333/paper/assets/37506309/9f036727-d641-4231-9980-ba79a88d666b)  
 Ñ<sub>k</sub>: M<sub>R</sub> × M<sub>T</sub> matrix, noise matrix  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ñ<sub>k</sub> = W<sub>k</sub><sup>H</sup> × N<sub>k</sub>  
-![image](https://github.com/OuO333333/paper/assets/37506309/9d13af86-0c04-44a6-90d8-a26283e29b1f)???
-
   
 -------------------------------------------------------------  
   
@@ -47,4 +45,4 @@ M<sub>R</sub> < N<sub>R</sub>, M<sub>T</sub> < N<sub>T</sub>, 就不懂了。
 -------------------------------------------------------------  
 
 看起來是先初步估計出 R<sub>k<sub>0</sub></sub>, R<sub>k<sub>1</sub></sub> 當 input, 目標求出 output H<sub>k<sub>0</sub></sub>, H<sub>k<sub>1</sub></sub>。  
-然後再用 H求出原本的 X<sub>k<sub>0</sub></sub>, X<sub>k<sub>1</sub></sub>。
+然後再用 H 求出原本的 X<sub>k<sub>0</sub></sub>, X<sub>k<sub>1</sub></sub>。
